@@ -1,6 +1,7 @@
 {
   "name": "the-game",
   "version": "0.1.0",
+  "homepage": "https://leon-w.github.io/the-game",
   "private": true,
   "dependencies": {
     "@types/node": "^16.18.97",
