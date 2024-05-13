@@ -1,0 +1,13 @@
+.discardArea {
+    height: 37.5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.discardArea > div {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 2vh 3vh;
+    justify-content: center;
+    align-content: center;
+}

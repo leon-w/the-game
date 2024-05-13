@@ -1,0 +1,14 @@
+.button {
+    background-color: #efeded;
+    border: none;
+    border-radius: 1vh;
+    padding: 1vh 2vh;
+    margin: 0 1vh;
+    font-size: 2vh;
+    white-space: nowrap;
+}
+
+.button:hover:not(:disabled) {
+    background-color: #bcbcbc;
+    cursor: pointer;
+}

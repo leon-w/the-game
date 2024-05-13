@@ -1,0 +1,40 @@
+.bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #cfd5e0;
+}
+
+.barTop {
+    height: 15vh;
+    flex-direction: column;
+}
+
+.barTop .titleText {
+    font-family: "Anton", sans-serif;
+    font-size: 6vh;
+}
+
+.barTop .titleTextSmall {
+    font-family: "Anton", sans-serif;
+    font-size: 4vh;
+}
+
+.barCenter {
+    height: 7vh;
+}
+
+.barCenter > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2vh;
+    justify-items: center;
+    align-items: center;
+    font-size: 2vh;
+}
+
+.barBottom {
+    height: 3vh;
+    font-size: 1.5vh;
+}

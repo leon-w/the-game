@@ -1,0 +1,44 @@
+.cardShape {
+    box-sizing: border-box;
+    border-radius: 1vh;
+    height: 15vh;
+    width: 10.7vh;
+}
+
+.card {
+    background-color: #202020;
+    color: white;
+    border: 0.3vh solid #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.cardPlaceholder {
+    background-color: #cecece;
+}
+
+.cardNumber {
+    font-size: 6vh;
+    font-family: "Anton", sans-serif;
+}
+
+.cardBorderGreen {
+    --pulseColor: 0, 150, 0;
+    animation: pulse 1.5s infinite;
+}
+
+.cardBorderBlue {
+    --pulseColor: 44, 65, 255;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0.3vh rgb(var(--pulseColor)), 0 0 0 0.3vh rgb(var(--pulseColor));
+    }
+    100% {
+        box-shadow: 0 0 0 1vh rgba(var(--pulseColor), 0), 0 0 0 0.3vh rgb(var(--pulseColor));
+    }
+}
