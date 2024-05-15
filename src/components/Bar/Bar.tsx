@@ -55,6 +55,8 @@ export function BarBottom() {
     return (
         <div className="bar barBottom">
             <a href="https://github.com/leon-w/the-game">Github</a>
+            &nbsp;&bull;&nbsp;
+            <a href="https://github.com/leon-w/the-game?tab=readme-ov-file#rules">How to Play</a>
         </div>
     );
 }
